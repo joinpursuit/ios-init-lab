@@ -1,7 +1,7 @@
 # Initialization Lab
 
 
-## 1: Structs Review
+## Project 1: Structs Review
 
 Download the resources at the link below:
 
@@ -11,7 +11,7 @@ https://developer.apple.com/go/?id=app-dev-swift-student (Links to an external s
 Open the folder titled "2 - Introduction to UIKit" then open the folder titled "3 - Structures".  Open the Playground there, and work through the exercises.
 
 
-## 2: Classes and Inheritance
+## Project 2: Classes and Inheritance
 
 Open the folder titled "2 - Introduction to UIKit" then open the folder titled "4 - Classes and Inheritance".  Open the Playground there, and work through the exercises.
 
@@ -24,7 +24,7 @@ Complete each of the following exercises by creating a new Command Line App in X
 
 
 
-## 3
+## Step 1
 
 Create a new file and name it "Movie.swift".  Make sure to save it right below your main.swift file.
 
@@ -34,7 +34,7 @@ Inside of the Movie.swift file, create a class called Movie that has properties 
 
 Inside of main.swift, populate an array of Movies converted from the array of dictionaries in the gist above.
 
-## 4
+## Step 2
 
 Then, for each movie in the Movie array, print the name of each movie and associated cast on a single line. Be sure not to print the array of cast members, only the string elements.
 
@@ -52,7 +52,7 @@ Minions: ["Sandra Bullock", "Jon Hamm", "Michael Keaton"]
 Shrek: ["Mike Myers", "Eddie Murphy", "Cameron Diaz"]
 
 
-## 5
+## Step 3
 
 Let's refactor our Movie class with what we learned today.
 
@@ -65,7 +65,7 @@ Create a failable convenience initializer convenience init?(with dict: [String:A
 Go back to the for loop in main.swift where we iterate through the movies array. Rewrite the body of the loop such that it creates a Movie object for each dictionary in the movies array using the new convenience initializer.
 
 
-## 6
+## Step 4
 
 Repeating the same process you used to make the Movie.swift file, create files named:
 
@@ -87,7 +87,7 @@ In Actor.swift, create a class named Actor that
 
 Rewrite your Movie class to have its case property be an array of Actors instead of Strings.
 
-## 7
+## Step 5
 
 Repeating the same process you used to make the Movie.swift file, create a file named:
 
@@ -103,7 +103,7 @@ In Genre.swift, create an enumeration with raw String values with the following 
 Rewrite your Movie class to have its genre property be of type Genre instead of String.
 
 
-## 8
+## Step 6
 
 Refactor your code and create an area of your improved Movie class out of the array of dictionaries.
 
