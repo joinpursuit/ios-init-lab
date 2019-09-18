@@ -1,7 +1,7 @@
 # Initialization Lab
 
 
-## Project 1: Structs Review
+## Project Option 1: Structs Review
 
 Download the resources at the link below:
 
@@ -11,7 +11,7 @@ https://developer.apple.com/go/?id=app-dev-swift-student (Links to an external s
 Open the folder titled "2 - Introduction to UIKit" then open the folder titled "3 - Structures".  Open the Playground there, and work through the exercises.
 
 
-## Project 2: Classes and Inheritance
+## Project Option 2: Classes and Inheritance
 
 Open the folder titled "2 - Introduction to UIKit" then open the folder titled "4 - Classes and Inheritance".  Open the Playground there, and work through the exercises.
 
